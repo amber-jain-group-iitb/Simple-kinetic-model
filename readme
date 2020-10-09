@@ -1,0 +1,15 @@
+Code for computing rates from our simple kinetic model.
+Please feel free to ask questions at amberj@chem.iitb.ac.in
+
+****
+Requires lapack subroutien dsyevr to diagonalize
+TIP: LAPACK matrix multiplication subroutines give decent speedups too.
+****
+
+Look at makefile for compilation instructions.
+Path for LAPACK and BLAS libraries need to be provided.
+
+***
+To compile, issue make. The makefile tells the compiling options.
+After compiliing, ./aout can be issued to run the job on the current processor.
+
